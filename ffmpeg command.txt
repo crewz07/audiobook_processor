@@ -1,0 +1,1 @@
+ffmpeg -f concat -safe 0 -i list.txt -vn -y -b:a 128k -acodec aac -ac 2 result.m4a
